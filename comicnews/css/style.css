@@ -1,0 +1,216 @@
+body {
+    background: #efefef;
+}
+
+.row {
+    margin-bottom: 30px;
+}
+
+.wrapperbg {
+    background: #ffffff;
+}
+
+.line-corpo {
+    margin-bottom: 30px;
+}
+
+/*Notice List*/
+h5.titulo > span {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    width: auto;
+    border-bottom: 3px solid #3d7a72;
+    padding-bottom: 6px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+
+
+#notice {
+    background: #f0f0f0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#notice:hover {
+    background: #ececec;
+}
+
+#notice .notice-body .image-body {
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+}
+
+#notice .notice-body .image-body > img {
+    width: 100%;
+    height: auto;
+}
+
+#notice .notice-body .call-body {
+    padding: 8px;
+    width: 100%;
+    height: 175px;
+}
+
+#notice .call-body > a > h1 {
+    width: 100%;
+    color: #333333;
+    font-size: 1.5em;
+    float: left;
+    margin: 0;
+}
+
+#notice .call-body > a > h1:hover, #notice .call-body > a > h3:hover {
+    color: #565656;
+    text-decoration: none;
+
+}
+
+#notice .call-body > a > h2 {
+    float: left;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 700;
+    padding: 5px;
+    background: #4ca39b;
+}
+
+#notice .call-body > a > h2:hover {
+    background: #3d7a72;
+}
+
+#notice .call-body > a > h3 {
+    color: #333333;
+    margin-top: 10px;
+    font-size: 1em;
+    float: left;
+}
+
+/* Fim Notice List*/
+
+/*Interna*/
+.destaque-interna {
+
+}
+
+.image-body-interna img {
+    width: 100%;
+    height: auto;
+}
+
+.text-body {
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 30px;
+}
+
+.text-body h1 {
+    text-align: center;
+    color: #333333;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.text-body > a > h5 {
+    text-align: center;
+    color: #4ca39b;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.text-body > a > h5:hover {
+    color: #3d7a72;
+}
+
+.text-interna p {
+    color: #595959;
+    font-size: 1.2em;
+}
+
+/*Fim Interna*/
+
+/*Input Notice*/
+.input-form {
+    padding: 20px;
+    -webkit-box-shadow: 0 10px 6px -6px #C6C6C6;
+    -moz-box-shadow: 0 10px 6px -6px #C6C6C6;
+    box-shadow: 0 10px 6px -6px #C6C6C6;
+}
+
+.form {
+    background: #FFFFFF;
+    max-width: 100%;
+    text-align: center;
+}
+
+input.inputfile {
+    display: none;
+}
+
+.form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f7f7f7;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form button.enviar {
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 30%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+
+.form button.cancel {
+    text-transform: uppercase;
+    outline: 0;
+    background: #af352e;
+    width: 30%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+.form button.enviar:hover, .form button.enviar:active, .form button.enviar:focus {
+    background: #43A047;
+}
+
+.form button.cancel:hover, .form button.cancel:active, .form button.cancel:focus {
+    background: #91252f;
+}
+
+.form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+
+.form .message a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.form .register-form {
+    display: none;
+}
+
+/*Fim Input Notice*/
